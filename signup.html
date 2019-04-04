@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up - Easy Pay</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</head>
+<body style="background-image:url(images/4.jpg);background-size:cover">
+	<div class="container" style="height: 100vh">
+		<div class="row align-items-center justify-content-center" style="height:100vh">
+			<div class="col-7 p-5" style="background-color: rgba(36, 30, 30, 0.51);height: 80vh;overflow-y: auto">
+				<form>
+					<div class="form-group">
+						<label class="text-light" for="username">Username</label>
+						<input type="text" class="form-control" placeholder="username">
+					</div>
+					<div class="form-group">
+						<label class="text-light "for="password">Password</label>
+						<input type="password" class="form-control" placeholder="password">
+					</div>
+					<div class="form-group">
+						<label class="text-light "for="confirmpassword">Confirm Password</label>
+						<input type="password" class="form-control" placeholder="confirm password">
+					</div>
+					<div class="form-group">
+						<label class="text-light "for="name">Name</label>
+						<input type="text" class="form-control" placeholder="Name">
+					</div>
+					<div class="form-group">
+						<label class="text-light "for="creditcardno">Credit Card Number</label>
+						<input type="text" class="form-control" placeholder="Credit Card Number">
+					</div>
+					<div class="form-group-">
+						<label class="text-light "for="bankname">Bank Name</label>
+						<select class="form-control" name="bank_name">
+							<option value="1">BCA</option>
+							<option value="2">OCBC NISP</option>
+							<option value="3">Mandiri</option>
+							<option value="4">BNI</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label class="text-light">Batas waktu</label>
+						<div>
+							<div class="d-inline-block">
+								<input type="date" placeholder="Start">
+							</div>
+							<div class="d-inline-block">
+								<label class="text-light">hingga</label>
+							</div>
+							<div class="d-inline-block">
+								<input type="date" placeholder="End">
+							</div>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Sign Up</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
